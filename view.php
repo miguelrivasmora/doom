@@ -30,9 +30,8 @@ $iframe_url = '../../local/doom/index.php';
 $iframe_attributes = array(
     'src' => $iframe_url,
     'width' => '100%',
-    'height' => '400px', // Adjust height as needed
+    'height' => '450px', // Adjust height as needed
     'frameborder' => '0', // No border
-    'scrolling' => 'auto' // Enable scrolling if content exceeds iframe height
 );
 echo html_writer::start_tag('iframe', $iframe_attributes);
 echo html_writer::end_tag('iframe');
